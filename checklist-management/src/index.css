@@ -6,9 +6,174 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #F5F7FA;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-header {
+  text-align: left;
+}
+
+p {
+  color: #507BFC;
+}
+
+.rocket-img {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.text1 {
+  padding-left: 15px;
+  font-size: 28px;
+  color: black;
+}
+
+.Title {
+  padding-left: 64px;
+  padding-top: 44px;
+  padding-right: 64px;
+}
+
+.breadCrums{
+  background-color: #F5F7FA;
+  border: 0;
+}
+
+.all-projects{
+  padding-left:50px;
+  padding-right:50px;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  
+}
+
+.my-projects{
+  padding-left:25px;
+  padding-right:25px;
+  padding-top: 5px;
+  color: #94969A;
+  text-align: center;
+}
+
+.not-active {
+  background-color: black ;
+  border-radius: 25px;
+}
+
+.btn-active {
+  background: #507BFC ;
+  border-radius: 25px;
+}
+
+.grid-container {
+  
+}
+
+.grid-item {
+  display: inline-block;
+  
+}
+
+.cardView {
+  padding-left: 32px;
+  padding-top: 44px;
+  padding-right: 64px;
+  
+}
+
+.card {
+  margin-left: 32px;
+  width:304px;
+  height:360px;
+  border-radius: 20px;
+}
+
+.view-btn{
+  
+  background: #507BFC;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-radius: 25px;
+  color: #ffffff
+}
+
+.view-text {
+  padding-left: 15px;
+   font-size: 20px;
+}
+
+.view-img{
+  padding-top: 5px;
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.heart-placeholder {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.avatar-placeholder {
+  padding-top: 64px;
+  vertical-align: middle;
+}
+
+.avatar {
+  
+  max-height: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  min-width: 120px;
+  object-fit: scale-down;
+}
+
+.project-name {
+  font-size: 15px;
+  color: black;
+}
+
+.catagory {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: #98A0A6;
+}
+
+.project-name-epic{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: black;
+}
+
+.epic-name-div {
+  max-height: 60px;
+  max-width: 320px;
+}
+
+.project-name-div {
+  padding-bottom: 15px;
+  max-height: 20px;
+  max-width: 320px;
+}
+
+.table-div {
+ padding-left: 64px;
+ padding-right: 64px;
+}
+
+.btn-group {
+ float: left;
 }
